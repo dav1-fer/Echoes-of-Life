@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+/* importing Bahiana Typeface from Google Fonts */
+
+body, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Bahiana", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    font-size: 95px;
+    font-weight: 400;
+}
