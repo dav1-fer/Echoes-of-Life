@@ -19,14 +19,20 @@
             <h3>
                 Current World Population:
             </h3>
-            <div class="volume-wrapper">
-                <img src="" alt="no volume icon">
-                <img src="" alt="full volume icon">
+            <!-- volume control below -->
+            <div class="volume-control">
+                <img src="assets/noVolume.icon.svg" alt="Volume Low" class="volume-icon" id="volume-low-icon">
+                <input type="range" min="0" max="100" value="50" class="volume-slider" id="volume-slider">
+                <img src="assets/fullVolume.icon.svg" alt="Volume High" class="volume-icon" id="volume-high-icon">
             </div>
+        
             <a href="">
                 <img src="" alt="aditional information button">
             </a>
         </div>
     </main>
+
+
+    <script src="script.js"></script>
 </body>
 </html>

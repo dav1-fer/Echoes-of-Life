@@ -19,3 +19,49 @@ main h1{
     font-size: 95px;
     font-weight: 400;
 }
+
+
+
+
+
+.volume-control {
+    display: flex;
+    align-items: center;
+}
+
+.volume-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.volume-slider {
+    width: 200px;
+    height: 5px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+}
+
+.volume-slider:hover {
+    opacity: 1;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #4caf50;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.volume-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #4caf50;
+    cursor: pointer;
+    border-radius: 50%;
+}
